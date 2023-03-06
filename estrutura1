@@ -1,0 +1,40 @@
+mkdir professor2\disciplina1\unidade1\at
+cd professor2\disciplina1
+mkdir unidade2\at
+mkdir unidade3\at
+mkdir avs\av1
+cd avs
+mkdir av2 av3 recupera
+cd ..\..
+mkdir disciplina2\unidade1\at
+cd disciplina2
+mkdir unidade2\at
+mkdir unidade3\at
+mkdir avs\av1
+cd avs
+mkdir av2 av3 recupera
+cd ..\..
+mkdir disciplina3\unidade1\at
+cd disciplina3
+mkdir unidade2\at
+mkdir unidade3\at
+mkdir avs\av1
+cd avs
+mkdir av2 av3 recupera
+cd ..\..
+mkdir disciplina4\unidade1\at
+cd disciplina4
+mkdir unidade2\at
+mkdir unidade3\at
+mkdir avs\av1
+cd avs
+mkdir av2 av3 recupera
+cd ..\..
+mkdir disciplina5\unidade1\at
+cd disciplina5
+mkdir unidade2\at
+mkdir unidade3\at
+mkdir avs\av1
+cd avs
+mkdir av2 av3 recupera
+cd ..\..
