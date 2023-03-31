@@ -1,5 +1,7 @@
-mkdir professor2\disciplina1\unidade1\at
-cd professor2\disciplina1
+mkdir professor2
+cd professor2
+mkdir unidade1
+cd unidade1
 mkdir unidade2\at
 mkdir unidade3\at
 mkdir avs\av1
