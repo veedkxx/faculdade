@@ -1,4 +1,6 @@
 @echo off
+Title Criador de pastas.
+
 echo Primeiro defina o nome da pasta principal
 set /p principal=Nome:
 cls 
@@ -21,9 +23,8 @@ if %escolha% equ 4 goto escolha4
 cls
 set /p nome_pasta1=Insira o nome da pasta:
 mkdir %principal%\%nome_pasta1%\
-xcopy /e C:\Users\%username%\desktop\%principal% C:\Users\%username%\desktop\%principal%2
 echo Pasta criada com sucesso.
-goto fim
+goto final
 
 :escolha2
 cls 
@@ -56,15 +57,16 @@ mkdir %principal%\%nome_pasta4_1%
 mkdir %principal%\%nome_pasta4_2%
 mkdir %principal%\%nome_pasta4_3%
 echo Pastas criadas com sucesso.
-pause
 goto final
 
 :final
+cls
+echo O que voce deseja fazer agora?
 echo 1. Apagar as pastas criadas.
 echo 2. Copiar as pastas para a area de trabalho.
 echo 3. Sair
 
-set /p O que voce deseja fazer agora?
+set /p opcao=Escolha uma opcao:
 if %opcao% equ 1 goto opcao1
 if %opcao% equ 2 goto opcao2
 if %opcao% equ 3 goto saida
@@ -72,12 +74,11 @@ if %opcao% equ 3 goto saida
 :opcao1
 echo Voce decidiu apagar as pastas cridas, tem certeza disso?
 set /p decisao=SIM ou NAO?
-
-if %opcao% equ sim goto apagar
-if %opcao% equ nao goto final
+if %decisao% equ sim goto apagar
+if %decisao% equ nao goto final
 
 :apagar
-rd /q %principal%
+rd /s %principal%
 echo Pastas apagadas.
 cls
 exit
