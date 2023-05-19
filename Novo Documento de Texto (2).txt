@@ -5,7 +5,7 @@
 para o batch em nuvem e informe 2 cenários úteis
 onde podemos utilizar o batch em nuvem e explique
 
-_ O batch local é mais usado para tarefas simples em pequena escala,
+-> O batch local é mais usado para tarefas simples em pequena escala,
 já o batch em nuvem é mais usado para executar tarefas em grande escala na nuvem de forma eficiente,
 que necessita de um servidor para que seja executado.
 alguns exemplos de cenários em que se utiliza o batch em nuvem são:
