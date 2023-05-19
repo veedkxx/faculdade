@@ -1,0 +1,13 @@
+* batch em cenario local ->cmd // ->power shell
+* batch em nuvem azure ms.
+
+- faça uma comparação da utilidade do batch local
+para o batch em nuvem e informe 2 cenários úteis
+onde podemos utilizar o batch em nuvem e explique
+
+1. o batch local é mais usado para tarefas simples em pequena escala,
+já o batch em nuvem é mais usado para grande escala,
+que necessita de um servidor para que seja executado.
+alguns exemplos de cenários em que se utiliza o batch em nuvem são:
+ -Processamento e análise de imagem
+ -Execução de teste de software
